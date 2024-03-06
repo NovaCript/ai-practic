@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai"
+version = "0.1.0"
+description = ""
+authors = ["frutez <glebka.yatsenko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scikit-learn = "^1.4.1.post1"
+pyfiglet = "^1.0.2"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
